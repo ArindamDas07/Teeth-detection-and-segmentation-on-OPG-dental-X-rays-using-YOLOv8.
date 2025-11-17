@@ -1,0 +1,8 @@
+# dataset.yaml
+path: yolo_dataset  # root folder of dataset
+train: images/train
+val: images/val
+test: images/test  # optional, can skip if not needed
+
+nc: 1  # number of classes
+names: ["tooth"]  # class names
